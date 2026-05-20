@@ -1,4 +1,4 @@
-import { initChallenges } from 'botbye-client';
+import { initChallenges } from '@botbye/client';
 import { WITH_INTERNAL_OPTIONS } from "./constants";
 export const BotByeVuePlugin = {
     install(app, options) {

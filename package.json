@@ -1,13 +1,31 @@
 {
-  "name": "botbye-vue",
-  "main": "index.js",
-  "version": "0.2.2",
-  "private": false,
-  "dependencies": {
-    "botbye-client": "^1.2.1"
+  "name": "@botbye/vue",
+  "version": "2.0.0",
+  "description": "BotBye! integration for Vue",
+  "type": "module",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
   },
-  "devDependencies": {
-    "vue": "^3.0.0"
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://botbye.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/botbye/botbye-vue"
+  },
+  "dependencies": {
+    "@botbye/client": "^2.0.0"
   },
   "peerDependencies": {
     "vue": "^3.0.0"
